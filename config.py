@@ -17,7 +17,7 @@ API_HASH = os.environ.get("API_HASH", "")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "sewxiy")
+OWNER = os.environ.get("OWNER", "admin")
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", ""))
@@ -35,7 +35,7 @@ FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", ""))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "5"))
 
-FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "600")) # auto delete in seconds
+FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "1800")) # auto delete in seconds
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b>Hello, {first},!\n\nI’m your File Store Bot, here to safely store and manage your private files. Upload them to the specified channel, and share them with others using a unique link. Let’s keep your files organized and accessible!</b>")
